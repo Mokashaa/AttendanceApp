@@ -23,3 +23,9 @@ def add_to_database (img1,img2,img3,id):
     database.loc[id]=encoding
     database.to_csv('/home/okshh/AttendanceApp/database.csv')
 
+
+
+def enhance (img):
+    img = cv2.fastNlMeansDenoisingColored(img,None,10,10,7,21)
+    img = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
+    return img
