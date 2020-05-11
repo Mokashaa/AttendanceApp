@@ -25,12 +25,10 @@ def add_to_database (img1,img2,img3,id):
 
 
 
-<<<<<<< HEAD
 def enhance (img):
     img = cv2.fastNlMeansDenoisingColored(img,None,10,10,7,21)
     img = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
     return img
-=======
 def who_is_it(image_path,tutorial):
     image = face_recognition.load_image_file(image_path)
     image = enhance (image)
@@ -71,4 +69,3 @@ def who_is_it(image_path,tutorial):
     cv2.imwrite('/home/okshh/AttendanceApp/result.jpg', image)
     attendanceSheet.to_csv('/home/okshh/AttendanceApp/dofaasheet.csv')
     result.close()
->>>>>>> 0cf0110fb46a4f3cb06a5bef37606f9678cd2d3e
