@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>TakeAttendanceDialog</class>
+ <widget class="QDialog" name="TakeAttendanceDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>871</width>
+    <height>484</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Take attendance</string>
+  </property>
+  <widget class="QLabel" name="Image_path">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>84</y>
+     <width>771</width>
+     <height>311</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="group_image_button">
+   <property name="geometry">
+    <rect>
+     <x>430</x>
+     <y>30</y>
+     <width>121</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Browse image..</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Take_attendance_button">
+   <property name="geometry">
+    <rect>
+     <x>350</x>
+     <y>410</y>
+     <width>161</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Take Attendance</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="Tutorials_list">
+   <property name="geometry">
+    <rect>
+     <x>330</x>
+     <y>30</y>
+     <width>91</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="layoutDirection">
+    <enum>Qt::LeftToRight</enum>
+   </property>
+   <item>
+    <property name="text">
+     <string>Tutorial1</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Tutorial2</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Tutorial3</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Tutorial4</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Tutorial5</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Tutorial6</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Tutorial7</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Tutorial8</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Tutorial9</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Tutorial10</string>
+    </property>
+   </item>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
