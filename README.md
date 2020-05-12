@@ -3,12 +3,12 @@ a solution that would allow instructors to take the attendance of the session by
 
 # Team Members
 
-Name: Mohammad Okasha
+Name: Mohammad Okasha </br>
 Email: mohamedokasha125@gmail.com
 
-Name: Ahmad Abdelhalem Mohammad Kamal
+Name: Ahmad Abdelhalem Mohammad Kamal </br>
 Email: ganzouri97@gmail.com
 
-Name: Salma Tarek Hassan
+Name: Salma Tarek Hassan </br>
 Email: salmatarek7397@gmail.com
 
